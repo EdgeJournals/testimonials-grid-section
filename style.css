@@ -15,27 +15,24 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: 1fr 1fr;
   gap: 15px;
-  padding: 2rem;
+  padding: 100px ;
+  max-width: 1400px;
 }
 
-.author-text{
-  display: inline;
-}
-
-.quotation{
-  z-index: -1;
-  justify-content: right;
-  align-items: right;
-}
 .daniel{
   background-color: hsl(263, 55%, 52%);
   color: hsl(260, 100%, 95%);
-  align-items: right;
-  justify-content: right;
+  align-items: center;
+  justify-content: center;
   grid-column: span 2;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
+  z-index: 1;
+}
+
+.daniel > .background{
+  font-size: large;
 }
 
 .jonathan{
@@ -44,8 +41,13 @@ body{
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
+  align-items: center;
+  justify-content: center;
 }
 
+.jonathan > .background{
+  font-size: large;
+}
 
 .kira{
   background-color: hsl(0, 0%, 100%);
@@ -54,27 +56,67 @@ body{
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
   border-radius: 5px;
   padding: 20px;
-
-}
-.kira > .author-photo{
-  display: inline;
-}
-
-.kira > article{
-  display: inline;
+  align-items: center;
+  justify-content: center;
 }
 
 .kira > .background{
   font-size: large;
 }
 
+.jeanette{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 10%, 45%);
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.jeanette > .background{
+  font-size: large;
+}
+
+.patrick{
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+  grid-column: span 2;
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.patrick > .background{
+  font-size: large;
+}
 
 .testimonial{
   font-weight: 600;
   font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .author-photo{
   border-radius: 50%;
-  display: inline;
 }
 
+.author-photo{
+  margin-right: 15px;
+}
+
+ .author-text > p{
+  display: inline-block;
+  font-size: 15px;
+}
+
+.quotation{
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  justify-self: right;
+  align-self: right;
+}
