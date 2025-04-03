@@ -18,6 +18,10 @@ body{
   padding: 2rem;
 }
 
+.author-text{
+  display: inline;
+}
+
 .quotation{
   z-index: -1;
   justify-content: right;
@@ -31,14 +35,7 @@ body{
   grid-column: span 2;
   border-radius: 5px;
   padding: 10px;
-}
-
-.author-photo{
-  border-radius: 50%;
-  display: inline;
-}
-article{
-  display: inline;
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
 }
 
 .jonathan{
@@ -46,4 +43,38 @@ article{
   color: hsl(260, 100%, 95%);
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
 }
+
+
+.kira{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 10%, 45%);
+  grid-row: span 2;
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
+  border-radius: 5px;
+  padding: 20px;
+
+}
+.kira > .author-photo{
+  display: inline;
+}
+
+.kira > article{
+  display: inline;
+}
+
+.kira > .background{
+  font-size: large;
+}
+
+
+.testimonial{
+  font-weight: 600;
+  font-size: 25px;
+}
+.author-photo{
+  border-radius: 50%;
+  display: inline;
+}
+
