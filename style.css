@@ -26,7 +26,7 @@ body{
   justify-content: center;
   grid-column: span 2;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
   z-index: 1;
 }
@@ -39,7 +39,7 @@ body{
   background-color: hsl(224, 10%, 45%);
   color: hsl(260, 100%, 95%);
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 81%), 0 6px 20px 0 hsl(0, 0%, 81%);
   align-items: center;
   justify-content: center;
@@ -111,12 +111,4 @@ body{
  .author-text > p{
   display: inline-block;
   font-size: 15px;
-}
-
-.quotation{
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  justify-self: right;
-  align-self: right;
 }
